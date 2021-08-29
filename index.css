@@ -1,13 +1,26 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
+}
+.logo a{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+
 }
 .Header{
     background-color: black;
 }
 nav{
     text-align: center;
+    width: 100%;
     
 }
 .nav{
@@ -68,28 +81,36 @@ About{
     text-align: right;
     width: 700px;
 }
-.aboutimg{
+.aboutimg img{
     float: right;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-top: 40px;
+    margin-left: 7rem;
 
 }
 .Skills{
     background-color: orange;
-    
+    text-decoration: none;
+    list-style: none;
+    padding: 7rem;
 }
-.Skills >ul{
+.INTRO ul{
     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.skill.ul{
+
+}
     
 }
-.skills>ul>.flex1,.skills>ul>.flex2{
-    text-align: center;
-}
+
 h3{
     text-align: center;
 }
 p{
-    text-align: center;
+    text-align: left;
 }
 ul li {
     text-align: center;
