@@ -7,15 +7,55 @@
     background-color: black;
 }
 nav{
-    text-align: right;
+    text-align: center;
+    
 }
+.nav{
+    background-color: orange;
+}
+
 nav ul li{
    
     display: inline-block;
     list-style: none;
     position: relative;
-    padding: 12px;
+    padding: 20px;
+    margin-right: 20px;
     text-decoration: none;
-}
     
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.Black{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-weight: 700;
+}
+.FIRST {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+.second{
+    float: right;
+    margin: 50px;
+}
+.second >img{
+    height: 300px;
+}
+.About{
+    font-size: 20px;
+    float: left;
+
+}
+h2{
+    float: left;
+}
+p{
+    float:right;
 }
