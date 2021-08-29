@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.logo a{
+.logo > a{
     color: black;
     font-size: 35px;
     font-weight: bold;
@@ -37,7 +37,7 @@ nav ul li{
     text-decoration: none;
     
 }
-nav li a {
+nav >li> a {
     text-decoration: none;
     font-size: 20px;
     color: black;
@@ -88,27 +88,39 @@ About{
     margin-left: 7rem;
 
 }
-.Skills{
+#Skills{
     background-color: orange;
     text-decoration: none;
     list-style: none;
-    padding: 7rem;
+    padding: 5rem;
 }
 .INTRO ul{
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: space-around;
+    
+}
+.flex1 {
+    border: 4px solid black;
+    padding: 2rem;
 
 }
+.flex2{
+    border: 4px solid black;
+    padding: 2rem;
+}
 .Project{
-    background-color: black;
+    background-color: Black;
     color: orange;
-    display: block;
-    position: relative;
-    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
     padding: 20px;
+    width: 100%;
+    
+
 
     
 }
@@ -116,15 +128,21 @@ About{
     text-align: center;
     position: relative;
     width: 400px;
+    margin-right: 4rem;
+    
    
    
 }
 .Project1 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     float: left;
     
 
+}
+.Project1 >.btn,.project2>.btn {
+    background-color: green;
+    padding: 3px 24px 3px 24px;
 }
 button{
     background-color: green;
@@ -137,11 +155,25 @@ button{
     width: 400px;
     text-align: center;
     float:right;
-    margin-top: -480px;
+    margin-top: 0px;
+}
+.project2>.btn{
+    position: relative;
+    top: 20px;
 }
 .project2 img{
-    width: 170px;
-    height: 340px;
+    width: 100%;
+    height: 100%;
+}
+.social-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding:2rem;
+    background-color: black;
+   
+
 }
 
 
@@ -164,5 +196,56 @@ ul li {
     height: 100px;
     object-fit: contain;
 }
- 
+
+.Contact{
+    background-color: orange;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.Contact .input-field{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    left: -180px;
+   
+}
+.input-field{
+    border: 0 none;
+    border-radius: 20px;
+    padding: 12px 15px;
+    margin: 20px;
+    
+}
+form{
+    text-align: center;
+    align-items: center;
+}
+/*
+.input-field1 {
+    border: 0 none;
+    border-radius:20px ;
+    margin: 0px;
+    padding: 12px 15px;
+}
+.input-field2{
+    padding: 12px 15px;
+    margin-right: 10rem;
+    border: 0 none;
+    border-radius: 20px;
+
+}
+
+.Contact> form{
+    text-align: center;
+    display: inline;
+
+   
+
+}
+ */
     
