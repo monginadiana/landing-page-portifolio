@@ -61,19 +61,29 @@ h2{
     color:black;
     font-weight: 700px;
 }
+About{
+    Margin left: 20px;
+}
 .stat{
     text-align: right;
+    width: 700px;
 }
 .aboutimg{
     float: right;
     margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
 
 }
 .Skills{
     background-color: orange;
+    
+}
+.Skills >ul{
+    display: flex;
+    
+}
+.skills>ul>.flex1,.skills>ul>.flex2{
+    text-align: center;
 }
 h3{
     text-align: center;
