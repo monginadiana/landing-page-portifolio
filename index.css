@@ -172,16 +172,7 @@ button{
     list-style: none;
     padding:2rem;
     background-color: black;
-   
-
 }
-
-
-
-
-    
-
-
 h3{
     text-align: center;
 }
@@ -225,27 +216,3 @@ form{
     text-align: center;
     align-items: center;
 }
-/*
-.input-field1 {
-    border: 0 none;
-    border-radius:20px ;
-    margin: 0px;
-    padding: 12px 15px;
-}
-.input-field2{
-    padding: 12px 15px;
-    margin-right: 10rem;
-    border: 0 none;
-    border-radius: 20px;
-
-}
-
-.Contact> form{
-    text-align: center;
-    display: inline;
-
-   
-
-}
- */
-    
