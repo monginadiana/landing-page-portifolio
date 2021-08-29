@@ -48,14 +48,30 @@ nav li a {
 .second >img{
     height: 300px;
 }
-.About{
-    font-size: 20px;
-    float: left;
+h2{
+    text-align: center;
+    margin-right: 10px ;
+    color: orange;
+    font-style: italic;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-weight: 700px;
+}
+.stat{
+    text-align: right;
+}
+.aboutimg{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 
 }
-h2{
-    float: left;
-}
-p{
-    float:right;
+.Skills{
+    background-color: orange;
 }
