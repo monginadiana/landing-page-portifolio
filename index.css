@@ -12,7 +12,7 @@
     text-decoration: none;
     float: left;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top:5px;
 
 }
 .Header{
@@ -48,6 +48,7 @@ nav li a {
     justify-content: center;
     color: orange;
     font-weight: 700;
+  
 }
 .FIRST {
     font-size: 30px;
@@ -75,7 +76,7 @@ h2{
     font-weight: 700px;
 }
 About{
-    Margin left: 20px;
+    Margin-left: 20px;
 }
 .stat{
     text-align: right;
@@ -100,11 +101,54 @@ About{
     justify-content: space-around;
 
 }
-.skill.ul{
+.Project{
+    background-color: black;
+    color: orange;
+    display: block;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
 
-}
     
 }
+.Project1{
+    text-align: center;
+    position: relative;
+    width: 400px;
+   
+   
+}
+.Project1 img{
+    width: 400px;
+    height: 400px;
+    float: left;
+    
+
+}
+button{
+    background-color: green;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 80px;
+    height: 30px;
+}
+.project2{
+    width: 400px;
+    text-align: center;
+    float:right;
+    margin-top: -480px;
+}
+.project2 img{
+    width: 170px;
+    height: 340px;
+}
+
+
+
+
+    
+
 
 h3{
     text-align: center;
@@ -115,3 +159,10 @@ p{
 ul li {
     text-align: center;
 }
+.image{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+ 
+    
