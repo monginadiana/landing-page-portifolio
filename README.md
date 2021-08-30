@@ -2,7 +2,7 @@
 #### {This is my weeks independent project,  basically it entails my portfolio, my experiences and about section}, {29/09/2021}
 #### By **{ONDIEKI DIANA MONGINA}**
 ## Description
-{The project is a decription of me. It has my name, my photo. Also it features an about section that contains my past experiences, my education and a skills secction that gives a details of what i am best at.Besides that, it has a project section that entails all my previous projects and their links on github.   }
+{The project is a decription of me. It has my name, my photo. Also it features an about section that contains my past experiences, my education and a skills section that gives a details of what i am best at.Besides that, it has a project section that entails all my previous projects and their links on github.   }
 ## Setup/Installation Requirements
 * Open your terminal
 * change current directory to where you want it cloned
