@@ -6,8 +6,9 @@
 ## Setup/Installation Requirements
 * Open your terminal
 * change current directory to where you want it cloned
-* type git clone https://github.com/monginadiana/StreetFoodWebsite
+* type git clone https://github.com/monginadiana/landing-page-portifolio
 * press enter to create a local clone
+* This is the live link for viewing my project <a href="https://monginadiana.github.io/landing-page-portifolio/">Landing_page portifolio</a> 
 ## Known Bugs
 {*no bugs known at the moment. }
 ## Technologies Used
